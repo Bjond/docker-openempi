@@ -2,7 +2,7 @@
 
 * To find out how to use this repo: [HOWTO Setup OpenEMPI (Dev Environment)](https://github.com/Bjond/bjond-health/wiki/HOWTO-Setup-OpenEMPI-(Dev-Environment))
 
-## Change Logs
+# Change Logs
 
 * Made it so that OpenEMPI uses port 8090 to avoid collision with `bjond-health` on a dev machine.
 
