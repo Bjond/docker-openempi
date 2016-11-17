@@ -15,8 +15,8 @@ COPY ./wait-for-it.sh /opt/openempi-3.1.0/bin/wait-for-it.sh
 # Make startup script executable
 RUN chmod +x /opt/openempi-3.1.0/bin/wait-for-it.sh
 
-# Expose port 8080 outside of Docker
-EXPOSE 8080
+# Expose port 8090 outside of Docker
+EXPOSE 8090
 
 # Initialisation scripts
 # Wait until database is available

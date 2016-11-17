@@ -1,3 +1,7 @@
+# Change Notes
+
+* Made it so that OpenEMPI uses port 8090 to avoid collision with `bjond-health` on a dev machine.
+
 # Docker Environment for OpenEMPI
 
 Docker environment for [OpenEMPI] (http://www.openempi.org/), an open source implementation of an Enterprise Master Patient Index.
@@ -19,7 +23,7 @@ Docker environment for [OpenEMPI] (http://www.openempi.org/), an open source imp
 6. Find the ip of your Docker environment:
   * If you are using Docker toolbox this tends to be `192.168.99.100`.
   * If you are using a native Docker installation it will be `localhost`.
-7. You can now visit `{docker-ip}:8080/openempi-admin` using your favorite browser or connect to the RESTful API via `{docker-ip}:8080/{rest-query}`.
+7. You can now visit `{docker-ip}:8090/openempi-admin` using your favorite browser or connect to the RESTful API via `{docker-ip}:8090/{rest-query}`.
 
 ## Data Storage and Persistence
 
